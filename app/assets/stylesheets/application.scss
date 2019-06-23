@@ -1,0 +1,181 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
+.text-15 {
+  font-size: 15px;
+}
+
+.text-17 {
+  font-size: 17px;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.heading-22 {
+  font-size: 22px !important;
+}
+
+.heading-24 {
+  font-size: 24px !important;
+}
+
+.link-normal {
+  color: #000;
+}
+
+.link-normal:hover {
+  color: #E2034A;
+}
+
+.jumbo-pages-round {
+  width: 100%;
+  height: 400px;
+  border-radius: 0px;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ), url(https://live.staticflickr.com/65535/48108617666_8109cfcd44_o.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.search-group {
+  display: inline-flex;
+}
+
+button.dropdown-main-style {
+  height: 70px;
+  width: 100%;
+  text-align: left;
+  background-color: #fff;
+  color: #000;
+  border-radius: 7px;
+  border: 0px;
+}
+
+button.dropdown-main-style:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+button.btn-primary {
+  background-color: #E2034A;
+  border: 0px;
+  height: 70px;
+  border-radius: 7px;
+}
+
+button.btn-primary:hover {
+  background-color: #EC316C;
+}
+button.btn-primary:active {
+  background-color: #E2034A;
+}
+
+
+.search-main-style {
+  height: 89px;
+  width: 100%;
+}
+
+.card.card-offers {
+  border: 0px;
+}
+
+button.btn-link {
+  color: #E2034A;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+button.btn-link:hover {
+  color: #E2034A;
+}
+
+
+
+.card-commutity-img-planetome {
+  // width: 100%;
+  height: 190px;
+  border-radius: 7px;
+  object-fit: cover;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  margin-right: -2px;
+}
+
+
+.mb0px {
+  margin-bottom: 0px;
+}
+
+.sport-tag {
+  color: #E2034A;
+}
+
+.card-field-main {
+  border: 0px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 3px 0px !important;
+}
+
+.card-field-img {
+  // width: 100%;
+  height: 65px;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  margin-right: -2px;
+  border-radius: 7px;
+  object-fit: cover;
+}
+
+.text-white-shadow {
+  text-shadow: 0px 3px 8px #000;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.title-color {
+  color: #505050;
+}
+
+input.form-control {
+  height: 65px;
+  background-color: #F2F2F2;
+}
+
+
+
+.jdj {
+
+}
